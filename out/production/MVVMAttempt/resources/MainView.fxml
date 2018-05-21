@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TilePane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.MainView"
+            prefHeight="400.0" prefWidth="600.0" alignment="TOP_CENTER">
+        <VBox alignment="CENTER" style="-fx-background-color: black" >
+            <HBox>
+                <Button fx:id="social" text="Social            >" style="-fx-background-color: #009cf7"
+                        onAction="#SocialButton"/>
+            </HBox>
+            <HBox>
+                <Button fx:id="workouts" text="Workouts    >" style="-fx-background-color: #36cdf7"
+                        onAction="#WorkoutButton"/>
+            </HBox>
+            <HBox>
+                <Button fx:id="diets" text="Diets               >" style="-fx-background-color:#66e8ff"
+                        onAction="#DietButton"/>
+            </HBox>
+            <HBox>
+                <Button fx:id="progress" text="Progress      >" style="-fx-background-color:#aaf2ff"
+                        onAction="#ProgressButton"/>
+            </HBox>
+
+
+
+
+        </VBox>
+</TilePane>
