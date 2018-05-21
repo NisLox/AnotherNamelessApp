@@ -5,12 +5,16 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import view.MainView;
 
 public class StartApplication extends Application{
+
+    MainView mainView;
 
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("resources/MainView.fxml"));
+
 
         Scene scene = new Scene(root, 300, 275);
         scene.getStylesheets().add("resources/CSS/Theme.css");
