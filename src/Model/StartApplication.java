@@ -9,7 +9,6 @@ import view.MainView;
 
 public class StartApplication extends Application{
 
-    MainView mainView;
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -22,6 +21,7 @@ public class StartApplication extends Application{
         stage.setTitle("Nameless App");
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package view;
 
+import Model.Services.DialogService;
+import Model.Services.IDialogService;
 import ViewModel.MainViewModel;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -17,9 +19,11 @@ Button diets;
 Button progress;
 
 private MainViewModel mainViewModel;
+IDialogService dialogService;
 
     public MainView(){
         mainViewModel = new MainViewModel();
+
     }
 
 
