@@ -15,11 +15,8 @@ Button workouts;
 Button diets;
 @FXML
 Button progress;
-private MainViewModel mainViewModel;
 
-//    public MainView(MainViewModel mainViewModel) {
-//        this.mainViewModel = mainViewModel;
-//    }
+MainViewModel mainViewModel;
 
     public void SocialButton(ActionEvent actionEvent) {
         mainViewModel.SocialButtonAction();

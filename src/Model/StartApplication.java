@@ -15,8 +15,6 @@ public class StartApplication extends Application{
         Scene scene = new Scene(root, 300, 275);
         scene.getStylesheets().add("resources/CSS/Theme.css");
 
-
-
         stage.setTitle("Nameless App");
         stage.setScene(scene);
         stage.show();

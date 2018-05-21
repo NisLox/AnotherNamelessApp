@@ -1,7 +1,7 @@
 package ViewModel;
 
-public class MainViewModel {
 
+public class MainViewModel {
 
     public void SocialButtonAction() {
 //        System.out.println("Test");
